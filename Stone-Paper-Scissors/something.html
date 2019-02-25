@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+
+  <script type="text/javascript" src="jquery.min.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body> 
+
+<script src="myScript.js"></script>
+
+<div class="container">
+  <!-- header sections -->
+  <div class="header">
+    <h1>Stone Paper Scissors </h1>
+  </div>
+  <!-- controls sections: checkboxes -->
+  <div class="controls">
+    <h3>You're playing against the computer.good luck </h3>
+   
+      
+  </div>
+
+  <div class="controls2">
+    <h3>computers move will be displayed here. </h3>
+   
+      
+  </div> 
+
+  <button onclick="myFunction()">Restart game </button>
+
+<script>
+function myFunction() {
+  location.reload();
+}
+</script>
+
+
+  <!-- board container -->
+  <div class="boardContainer">
+    <!-- first row -->
+    <div class="row">
+      <div id="0" class="square bottom right"><img src="paper2.png" class="image"></div>
+      <div id="1" class="square bottom right"><img src="rock2.png" class="image"></div>
+      <div id="2" class="square bottom"><img src="scissors2.png" class="image"></div>   
+  </div>
+    
+   
+</div>
+</body>
+</html>
